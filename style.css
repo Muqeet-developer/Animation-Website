@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background-color: rgb(218, 50, 87);
+   color: white;
+   height: 59px;
+   border: 2px solid black;
+   width: 108%;
+}
+header > nav{
+    display: flex;
+
+}
+header > nav > ul{
+    display: flex;
+    margin-left: 900px;
+    position: absolute;
+    animation: Muqeet 4s forwards 1s  linear;
+}
+header >nav > ul > li{
+    padding: 20px;
+    text-align: justify;
+    list-style-type: none;
+    font-style: italic;
+
+}
+header >nav > h1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    position: absolute;
+    animation: Muqeet 4s forwards 1s  linear;
+}
+.img img{
+    position: absolute;
+    animation: Website 4s forwards 1s  linear;
+    /* width: 109%; */
+}
+@keyframes Muqeet{
+    from{
+        left: -600px;
+    }
+   to{
+        left: 100px;
+    
+    }
+}
+@keyframes Website {
+    from{
+        height: 0px;
+    }
+    to{
+    height: 1100px;
+    }
+}
